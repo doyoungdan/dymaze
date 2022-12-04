@@ -522,6 +522,11 @@ color: #253a73;
   font-weight: 500;
 }
 
+.menu li a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
 .notAnswer {
   color: #cf120e !important;
   font-size: 12px !important;
