@@ -411,6 +411,7 @@ color: #253a73;
 .miniroom {
   width: 90%;
   margin: 20px auto 0;
+  position: relative;
 }
 
 .mini_tit {
@@ -535,4 +536,111 @@ color: #253a73;
   border-bottom: 0 !important;
   margin-top: 5px;
   margin-left: 5px;
+}
+
+#startpage .hint {
+  position: absolute;
+  background: url(../images/speaker.png) no-repeat center;
+  width: 15px;
+  height: 20px;
+  background-size: contain;
+  top: 30px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.start {
+  background: url(../images/start.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage00 {
+  background: url(../images/stage00.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage01 {
+  background: url(../images/stage01.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage02 {
+  background: url(../images/stage02.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage03 {
+  background: url(../images/stage03.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage04 {
+  background: url(../images/stage04.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage05 {
+  background: url(../images/stage05.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage06 {
+  background: url(../images/stage06.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage07 {
+  background: url(../images/stage07.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage08 {
+  background: url(../images/stage08.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage09 {
+  background: url(../images/stage09.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage10 {
+  background: url(../images/stage10.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage11 {
+  background: url(../images/stage11.png) no-repeat center;
+  background-size: contain;
+}
+
+.stage12 {
+  background: url(../images/stage12.png) no-repeat center;
+  background-size: contain;
+}
+
+.finish {
+  background: url(../images/finish.png) no-repeat center;
+  background-size: contain;
+}
+
+.startBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../images/startBtn.png) no-repeat center;
+  width: 143px;
+  height: 37px;
+  background-size: cover;
+  display: block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.txt p {
+  color: #222;
+  font-size: 13px;
+  line-height: 20px;
 }
