@@ -1,0 +1,17 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href=""><link rel="stylesheet" href="./css/reset.css"><link rel="stylesheet" href="./css/style.css"><script>$(document).ready(function(){
+          $(document).on('keydown',function(e){
+              if ( e.keyCode == 123) {  
+                  e.preventDefault();
+                  e.returnValue = false;
+              }
+          });
+      });
+
+      document.onmousedown=disableclick;
+      status="마우스오른쪽 클릭금지.";
+      function disableclick(event){
+          if (event.button==2) {
+              alert(status);
+              return false;
+          }
+      }</script><script defer="defer" src="/js/chunk-vendors.328ece66.js"></script><script defer="defer" src="/js/app.4cb94e80.js"></script></head><body oncontextmenu="return false" onselectstart="return false" ondragstart="return false"><div id="app"></div></body></html>
