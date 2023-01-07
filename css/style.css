@@ -12,6 +12,7 @@
   transform: translateY(-50%);
 }
 
+
 .contents {
   display: flex;
   align-items: center;
@@ -256,7 +257,7 @@
   align-items: center;
   width: 64.6%;
   height: 100%;
-background-color: #aad0d9;
+  background-color: #aad0d9;
   border: 2px solid #aabbbf;
   border-radius: 15px;
   border-left: none;
@@ -339,14 +340,16 @@ background-color: #aad0d9;
 }
 
 .update li {
-  display: flex;
+  display: block;
   font-size: 0.8rem;
   text-align: left;
   padding: 4px;
   color: #444;
   cursor: pointer;
-  align-items: center;
-  justify-content: flex-start;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+  width: 238px;
+  white-space: nowrap;
 }
 
 .update li .tag01 {
@@ -370,8 +373,14 @@ background-color: #aad0d9;
   font-size: 0.7rem;
 }
 
+.update li a {
+  color: #444;
+  text-decoration: none;
+}
+
 .counting {
   width: 48%;
+  padding-top: 17px;
 }
 
 .counting p {
@@ -643,4 +652,9 @@ color: #253a73;
   color: #222;
   font-size: 12px;
   line-height: 20px;
+}
+
+.txt em {
+  display: inline-block;
+  font-size: 9px;
 }
